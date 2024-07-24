@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage ("Clean up"){
             steps {
-                sh 'rm -rf /home/vboxuser/.jenkins/workspace/astonvilla/*'
+                sh 'rm -rf /home/vboxuser/.jenkins/workspace/astonv/*'
                 sh 'ls'
             }
         }
